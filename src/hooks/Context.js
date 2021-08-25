@@ -11,7 +11,7 @@ function Context() {
   const useColors = useContext(colorContext);
 
   return (
-    <button style={{ color: useColors.red }}>
+    <button style={{ color: useColors.blue }}>
       I am a button!
     </button>
   );
