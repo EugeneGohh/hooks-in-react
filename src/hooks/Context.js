@@ -1,20 +1,24 @@
-import React, { useContext } from "react";
+import React, { useContext, createContext } from "react";
 
-const colors = {
+const colorHex = {
   blue: "#03619c",
   yellow: "#8c8f03",
 };
 
-const colorContext = React.createContext(colors);
+const ColorContext = createContext(colorHex);
 
 function Context() {
-  const useColors = useContext(colorContext);
-
   return (
-    <button style={{ color: useColors.blue }}>
-      I am a button!
-    </button>
+    <ColorContext.Provider value={colorHex.blue}>
+      <ButtonHex />
+    </ColorContext.Provider>
   );
+}
+
+function ButtonHex() {
+  const btnHex = useContext(ColorContext);
+
+  return <button>{btnHex}</button>;
 }
 
 export default Context;
