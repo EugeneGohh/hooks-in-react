@@ -21,15 +21,15 @@ function App() {
 
       <br /> */}
 
+      <Ref />
+
+      <br />
+
       <Reducer />
 
       <br />
 
       <Memo />
-
-      <br />
-
-      <Ref />
     </>
   );
 }
