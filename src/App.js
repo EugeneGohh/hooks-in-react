@@ -4,6 +4,7 @@ import "./App.css";
 // import Context from "./hooks/Context";
 import Reducer from "./hooks/Reducer";
 import Memo from "./hooks/Memo";
+import Ref from "./hooks/Ref";
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
       <br />
 
       <Memo />
+
+      <br />
+
+      <Ref />
     </>
   );
 }

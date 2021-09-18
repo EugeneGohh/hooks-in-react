@@ -15,9 +15,10 @@ function Memo() {
 
   return (
     <div>
-      <h1>
+      <h1>useMemo Example</h1>
+      <h3>
         Fibonacci of {number} is {fib}
-      </h1>
+      </h3>
       <button onClick={() => setNumber(number + 1)}>+</button>
     </div>
   );

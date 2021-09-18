@@ -24,6 +24,7 @@ function Reducer() {
 
   return (
     <>
+      <h1>useReducer Example</h1>
       Count: {state.count}
       <button onClick={() => dispatch({ type: "decrement" })}>-</button>
       {/* Dispatch action here when clicked */}
