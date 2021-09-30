@@ -12,3 +12,6 @@ A list of React hooks in one repository.
 - [x] `useImperativeHandle`
 - [x] `useLayoutEffect`
 - [x] `useCallback`
+
+## Resource
+-> https://reactjs.org/docs/hooks-reference.html
