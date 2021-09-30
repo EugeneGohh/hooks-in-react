@@ -8,3 +8,7 @@ A list of React hooks in one repository.
 - [x] `useReducer`
 - [x] `useMemo`
 - [x] `useRef`
+- [x] `useDebugValue`
+- [x] `useImperativeHandle`
+- [x] `useLayoutEffect`
+- [x] `useCallback`
