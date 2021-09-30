@@ -2,9 +2,13 @@ import "./App.css";
 // import State from "./hooks/State";
 // import Effect from "./hooks/Effect";
 // import Context from "./hooks/Context";
-import Reducer from "./hooks/Reducer";
-import Memo from "./hooks/Memo";
-import Ref from "./hooks/Ref";
+// import Reducer from "./hooks/Reducer";
+// import Memo from "./hooks/Memo";
+// import Ref from "./hooks/Ref";
+import LayoutEffect from "./hooks/LayoutEffect";
+import ImperativeHandle from "./hooks/ImperativeHandle";
+import DebugValue from "./hooks/DebugValue";
+import Callback from "./hooks/Callback";
 
 function App() {
   return (
@@ -21,7 +25,7 @@ function App() {
 
       <br /> */}
 
-      <Ref />
+      {/* <Ref />
 
       <br />
 
@@ -29,7 +33,23 @@ function App() {
 
       <br />
 
-      <Memo />
+      <Memo /> */}
+
+      <br />
+
+      <LayoutEffect />
+
+      <br />
+
+      <ImperativeHandle />
+
+      <br />
+
+      <DebugValue />
+
+      <br />
+
+      <Callback />
     </>
   );
 }
