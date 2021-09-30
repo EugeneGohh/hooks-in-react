@@ -32,7 +32,7 @@ function Callback() {
         current count: {count}
       </button>
       <ExpensiveComputationComponent
-        compute={useCallback(fibonacci, [])}
+        compute={useCallback(fibonacci, [fibonacci])}
         count={count}
       />
     </div>
